@@ -5,6 +5,7 @@ The module provides a single function `matrix_shape` which returns the
 dimensions of a nested list (matrix) as a list of integers.
 """
 
+
 def matrix_shape(matrix):
     shape = []
     m = matrix
