@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """Perform matrix multiplication.
 
-The module provides a single function `mat_mul` which returns
-the product of two matrices, or None if multiplication is not possible.
+The module provides a single function `mat_mul` which multiplies two matrices.
 """
 
 
 def mat_mul(mat1, mat2):
-    """Return the product of two matrices.
+    """Multiply two matrices and return the result.
 
     Args:
         mat1: A 2D list of ints/floats (m x n matrix).
