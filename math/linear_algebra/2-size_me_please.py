@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""Calculate the shape of a matrix.
+
+This module provides a function to determine the dimensions of a nested
+list (matrix) structure.
+"""
+
 
 def matrix_shape(matrix):
     shape = []  # matrix shape
