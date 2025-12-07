@@ -14,7 +14,7 @@ def add_arrays(arr1, arr2):
         arr2: A list of ints/floats.
 
     Returns:
-        A new list with element-wise sums, or None if arrays have different lengths.
+        A new list with element-wise sums, or None if shapes differ.
     """
     if len(arr1) != len(arr2):
         return None
