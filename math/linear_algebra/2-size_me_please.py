@@ -7,6 +7,14 @@ list (matrix) structure.
 
 
 def matrix_shape(matrix):
+    """Calculate the shape of a matrix.
+
+    Args:
+        matrix: A nested list representing a matrix.
+
+    Returns:
+        A list of integers representing the shape of the matrix.
+    """
     shape = []  # matrix shape
     m = matrix  # temporary variable
     while isinstance(m, list):
