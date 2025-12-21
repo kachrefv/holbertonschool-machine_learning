@@ -16,7 +16,8 @@ def bars():
     bottom = np.zeros(3)
 
     for i in range(len(fruits)):
-        plt.bar(names, fruit[i], width, bottom=bottom, color=colors[i], label=fruits[i])
+        plt.bar(names, fruit[i], width, bottom=bottom, color=colors[i],
+                label=fruits[i])
         bottom += fruit[i]
 
     plt.ylabel('Quantity of Fruit')
