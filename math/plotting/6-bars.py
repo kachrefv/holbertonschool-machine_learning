@@ -2,6 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def bars():
     """Plots a stacked bar graph of fruit per person."""
     np.random.seed(5)
