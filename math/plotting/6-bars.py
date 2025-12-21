@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Module to plot a stacked bar graph."""
+
 import numpy as np
 import matplotlib.pyplot as plt
 
